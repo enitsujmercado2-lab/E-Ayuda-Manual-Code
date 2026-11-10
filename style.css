@@ -105,8 +105,8 @@ nav a{
     padding:15px;
     font-size: 20px;
     text-decoration:none;
-    color: white;
-    background-color: rgb(41, 158, 41);
+    color:#000000;
+    background-color: rgb(242, 248, 242);
 }
 
 .image img{
@@ -122,7 +122,7 @@ nav a{
     border: rgb(228, 234, 235), 5px, solid;
     border-radius: 20px;
     background-color: rgb(229, 235, 236);
-    color: green;
+    color: #195d8d;
 }
 
 #bats{
@@ -140,8 +140,65 @@ nav a{
 
 .page2{
     min-height: calc(100vh - 80px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
 }
+
+#content2{
+    padding-top: 30px;
+    margin-left: 40px;
+    p{
+        color: #568eb6;
+        font-size:20px;
+        margin-bottom: 2px;
+    }
+
+    h1{
+        margin-top: 5px;
+        color:#0e4d7a;
+        font-size: 40px;
+        margin-bottom: 6px; 
+    }
+
+    h2{
+        margin-top: 2px;
+        color: #568eb6;
+        font-size: 20px;
+
+    }
+}
+
+.track-Application{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid;
+    box-shadow: 6px 6px 15px #686666;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15% ;
+    border-radius: 5px;
+
+    #content-text #subtitles2{
+       color: #568eb6;
+    }
+
+    #content-text{
+        color: #0e4d7a;
+    }
+
+
+    .view-application{
+        border: 1px solid #0e4d7a;
+        padding: 10px;
+        border-radius:15px;
+        background-color: #0e4d7a;
+        font-size: 20px;
+
+        a{
+         text-decoration: none;
+         color: white;
+        }
+    }
+
+}
+
