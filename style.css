@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  background: #0e4d7a 100%;
+  color: var(--white);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-right: auto;
+    background-color: #dadada;
+    color: rgb(40, 101, 136);
+    top: 0;
+    position: sticky;
+    font-family: poppins;
+    z-index: 1000;
+}
+
+.logoname h1{
+    margin-bottom: 0px;
+
+}
+
+.logoname p{
+    margin-top: 1px;
+}
+
+.ri-service-fill{
+    font-size: 50px;
+    color: rgb(19, 82, 119);
+    margin-left: 20px;
+}
+
+
+.signout{
+    color: rgb(19, 82, 119);
+    font-size: 20px;
+    border: 1px solid rgb(87, 121, 141);
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #fffffffa;
+}
+.signout a{
+    text-decoration: none;
+    color: rgb(19, 82, 119);
+    font-size: 20px;
+}
+
+.ri-shut-down-line{
+    margin-right: 10px;
+}
+
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(40, 101, 136);
+    font-size: 20px;
+}
+
+/* end of the header .........................................................................................................................
+................................................................................................................................................*/
+
+.page1{
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.text-content{
+    color: white;
+}
+
+.text-content h1{
+    font-size:50px;
+    margin-top: 0px;
+}
+
+#subtitle {
+  max-width: 650px;
+  margin-top: 34px;
+  color: rgba(240, 245, 255, 0.9);
+  font-size: clamp(1.05rem, 1.2vw, 1.5rem);
+  line-height: 1.5;
+  display: block;
+}
+
+.Viewprogram{
+   margin-top: 35px;
+   margin-left: 30px;
+}
+
+.Viewprogram a{
+    border: white solid 2px;
+    border-radius: 15px;
+    padding:15px;
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    background-color: rgb(41, 158, 41);
+}
+
+.image img{
+    height: 250px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    transform: translate(20px, 20px) rotate(5deg);
+    border: rgb(228, 234, 235), 5px, solid;
+    border-radius: 20px;
+    background-color: rgb(229, 235, 236);
+    color: green;
+}
+
+#bats{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+}
+
+
+
+
+/* End of the page1..............................................................................................................................................
+....................................................................................................................................................*/
+
+.page2{
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}

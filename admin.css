@@ -1,0 +1,38 @@
+
+
+body{
+    margin: 0px;
+    background-color: #2F2F2F;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn{
+    background-color: rgb(20, 83, 83);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid rgb(20, 83, 83);
+    border-radius: 20px;
+}
+
+#inputs{
+   border: 1px solid rgb(70, 156, 255);
+   border-radius: 10px;
+   font-size: 20px;
+   background-color: rgb(130, 184, 184);
+   color: rgb(33, 48, 48) ;
+}
+
+#inputs button{
+    background-color: rgb(20, 83, 83);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}

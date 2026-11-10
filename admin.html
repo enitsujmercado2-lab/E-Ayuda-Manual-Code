@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <div class="btn">
+        <button id="btn" onclick="createprogram()">
+            create new program
+        </button>
+    </div>
+
+        <dialog id="inputs">
+            <form method="dialog">
+                <label for="programName">Program Name:</label>
+                <input type="text" id="programName" name="programName" required>
+                <br><br>
+                
+                <br><br>
+                <label for="programDescription">Program Description:</label>
+                <textarea id="programDescription" name="programDescription" required></textarea>
+                <br><br>
+                <button type="submit">Create Program</button> <br>
+                <button type="button" id="cancel" onclick="cancelprogram()">Cancel</button>
+            </form>
+        </dialog>
+    <script src="script.js"></script>
+</body>
+</html>
